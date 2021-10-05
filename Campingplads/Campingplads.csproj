@@ -68,16 +68,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSS\StyleSheetGeneral.css" />
-    <Content Include="HTML\Index.html" />
-    <Content Include="Index.aspx" />
+    <Content Include="HTML\Index.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Index.aspx.cs">
+    <Compile Include="HTML\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Index.aspx.designer.cs">
+    <Compile Include="HTML\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
