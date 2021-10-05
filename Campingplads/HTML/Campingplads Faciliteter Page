@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+</style>
+</head>
+<body>
+
+  <div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">Booking</a>
+  <a href="#contact">About</a>
+  <a href="#about">Fasiliter</a>
+</div>
+
+</style>
+</head>
+<body>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1>Faciliter</h1>
+    <p>En mere detaljeret forklaring om Faciliteterne på Camp Camping </p> 
+  </div>
+</div>
+
+<div class="header">
+  <div class="container" style="background-color: rgba(44, 44, 44, 0.3);">
+  <h1>Faciliteter</h1>
+  <ul>
+  <li>Badeland</li>
+  <li>Reception</li>
+  <li>ServiceBygning</li>
+  <br>
+  <li>Bortskaffelse af affald</li>
+  <li>Spildevand fra autocamper</li>
+  <li>Gedefold</li>
+  <li>Bålplads</li>
+</ul>
+<br>
+<div class="container">
+   <img alt="Camping kort" class="center" src="file:///C:/Users/jaco583c/OneDrive%20-%20EFIF/Billeder/Camping%20picture.PNG">
+  </div>
+</div>
+</div>
+
+
+<div class="footer">
+<footer style="max-width: 70%; margin: auto; display: flex; justify-content: space-evenly;">
+<div class="a">
+  <p>Contact :
+  <a href="mailto:hege@example.com">hege@example.com</a></p>
+</div>
+
+<div class="b">
+<p>Phone :
+  <a href="+4510203040">+4510203040</a></p>
+</div>
+
+<div class="c"> 
+<p>Help :
+  <a href="mailto:help@example.com">help@example.com</a></p>
+</div>
+</footer>
+
+</body>
+</html>
