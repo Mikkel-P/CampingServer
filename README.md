@@ -1,3 +1,3 @@
 # CampingServer
 
-Final school project of the first main course as data technician with specialty in programming.
+Final school project of the first head course as data technician with a specialty in programming.
