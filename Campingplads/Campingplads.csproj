@@ -70,6 +70,7 @@
     <Content Include="CSS\StyleSheetGeneral.css" />
     <Content Include="HTML\Index.aspx" />
     <Content Include="Web.config" />
+    <Content Include="HTML\SiteMaster.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HTML\Index.aspx.cs">
@@ -80,9 +81,24 @@
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="HTML\SiteMaster.aspx.cs">
+      <DependentUpon>SiteMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML\SiteMaster.aspx.designer.cs">
+      <DependentUpon>SiteMaster.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Site.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
