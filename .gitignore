@@ -1,6 +1,6 @@
-
-Campingplads/.vs/Campingplads/v16/.suo
-Campingplads/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
-Campingplads/.vs/Campingplads/v16/.suo
-Campingplads/.vs/Campingplads/v16/.suo
-Campingplads/UpgradeLog.htm
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
